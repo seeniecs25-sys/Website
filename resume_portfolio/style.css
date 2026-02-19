@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+:root {
+    --org-50: #ffefe6;
+    --org-100: #ffcfb0;
+    --org-200: #ffb78a;
+    --org-300: #ff9654;
+    --org-400: #ff8233;
+    --org-500: #ff6300;
+    --org-600: #ff4800;
+
+
+     --org-black-50:rgb(109, 109, 109);
+     --org-black-100:rgb(77, 76, 76);
+     --org-black-200:rgb(68, 67, 67);
+     --org-black-300:rgb(65, 64, 64);
+     --org-black-400:rgb(43, 42, 42);
+     --org-black-500:rgb(12, 1, 1);
+
+    --org-white:#ffffff;
+}
+
+/* Navbar Background */
+.custom-navbar {
+    background-color:var(--org-black-500);
+    padding: 12px 0;
+}
+
+/* Logo */
+.logo {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.brand-text {
+    color:var(--org-white) !important;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+/* Nav Links */
+.nav-link {
+    color: var(--org-white) !important;
+    margin: 0 10px;
+    font-weight: 500;
+    transition: 0.3s ease;
+    font-size: 15px !important;
+    gap: 6px !important;
+}
+
+.nav-link:hover {
+    color:var(--org-400) !important;
+}
+
+.navbar-toggler {
+    border: 1px solid var(--org-white) !important;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:active {
+    border: 1px solid var(--org-500) !important;
+    background-color: var(--org-500) !important;
+}
+
+/* Download Button */
+.download-btn {
+    background-color:var(--org-500) !important;
+    color: var(--org-white) !important;
+    padding: 7px 14px;
+    border-radius: 19px;
+    font-weight: 600;
+    font-size: 15px !important;
+    transition: 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: var(--org-500) !important;
+    box-shadow: 0 0 2px 2px var(--org-400);
+    color: var(--org-white) !important;
+}
+
+/* navbar closed  */
+
+/* first section started  */
+
+.first-section {
+    background-color: var(--org-black-500) !important;
+    color:var(--org-white);
+}
+
+/* Left Content */
+.intro-text {
+    font-size: 16px !important;
+    margin-bottom: 7px;
+}
+
+.name-text {
+    color: var(--org-500) !important;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.main-heading {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.description {
+    color: var(--org-white) !important;
+    margin-bottom: 25px;
+    font-size: 15px !important;
+}
+
+/* Image Styling */
+.image-wrapper {
+    width: 250px;
+    height: 270px;
+    margin: auto;
+    border-radius: 50%;
+    border: 4px solid var(--org-500);
+    overflow: hidden;
+}
+
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Social Icons */
+.social-icons a {
+    color: #ffffff;
+    font-size: 18px;
+    margin: 0 8px;
+    transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ff7a00;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .main-heading {
+        font-size: 40px;
+    }
+
+    .image-wrapper {
+        width: 250px;
+        height: 250px;
+        margin-top: 40px;
+    }
+
+    .text-content {
+        text-align: center;
+    }
+
+    .description {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
